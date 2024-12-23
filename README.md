@@ -1,6 +1,6 @@
 # Desafio TokenLab - Backend
 
-Este repositório contém o **backend** do projeto "Desafio TokenLab", desenvolvido em **Node.js** com **TypeScript**. O sistema é construído para fornecer uma API robusta, eficiente e segura, utilizando tecnologias como **Express**, **JWT**, **bcryptjs** e **MySQL2**.
+Este repositório contém o **backend** do projeto "Desafio TokenLab", desenvolvido em **Node.js** com **TypeScript**. O sistema é construído para fornecer uma API utilizando tecnologias como **Express**, **JWT** e **MySQL** como banco de dados.
 
 ## 🚀 Tecnologias Usadas
 
@@ -8,7 +8,6 @@ Este repositório contém o **backend** do projeto "Desafio TokenLab", desenvolv
 - **TypeScript**: Superconjunto de JavaScript que adiciona tipagem estática.
 - **Express**: Framework web minimalista para Node.js.
 - **JWT (JSON Web Token)**: Sistema de autenticação baseado em tokens.
-- **bcryptjs**: Biblioteca para hash de senhas e segurança.
 - **MySQL2**: Cliente para conectar ao banco de dados MySQL.
 - **dotenv**: Para carregar variáveis de ambiente a partir de um arquivo `.env`.
 - **Nodemon**: Utilitário para reiniciar automaticamente a aplicação durante o desenvolvimento.
@@ -48,6 +47,7 @@ Para iniciar o servidor em modo de desenvolvimento com reinicialização automá
 ```bash
 npm run dev
 ```
+### 5. O servidor estará rodando na porta: http://localhost:8080
 
 ### 🔗 Repositório do Frontend
 O repositório do frontend deste projeto pode ser acessado aqui: https://github.com/maraeliza/desafio-tokenlab
